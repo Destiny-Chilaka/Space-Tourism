@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* *{
+    outline: 2px solid red;
+} */
+@theme {
+    --breakpoint-sm: 672px;
+}
+
+.dosis {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.center-div {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.text-spacing {
+    letter-spacing: 0.18em;
+}
+
+.bellefair {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vazirmatn {
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+
+@media (max-width: 672px) {
+    .active {
+        border-bottom: none;
+        border-right: 2px solid white;
+    }
+}
